@@ -5,12 +5,12 @@
       <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div class="text-2xl font-bold text-green-700">BuildHub</div>
         <ul class="flex gap-8">
-          <li><a href="#home"
-              class="text-gray-700 hover:text-green-700 transition">Home</a></li>
-          <li><a href="#proyectos"
-              class="text-gray-700 hover:text-green-700 transition">Proyectos</a></li>
-          <li><a href="#contacto"
-              class="text-gray-700 hover:text-green-700 transition">Contacto</a></li>
+          <li><router-link to="/"
+              class="text-gray-700 hover:text-green-700 transition">Home</router-link></li>
+          <li><router-link to="/agrimensura"
+              class="text-gray-700 hover:text-green-700 transition">Proyectos</router-link></li>
+          <li><router-link to="/contacto"
+              class="text-gray-700 hover:text-green-700 transition">Contacto</router-link></li>
         </ul>
       </div>
     </nav>

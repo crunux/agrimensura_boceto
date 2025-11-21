@@ -61,12 +61,12 @@
       <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div class="text-2xl font-bold text-emerald-500">ProyectoHub</div>
         <div class="flex gap-8">
-          <a href="#"
-            class="hover:text-emerald-400 transition">Inicio</a>
-          <a href="#"
-            class="hover:text-emerald-400 transition">Proyectos</a>
-          <a href="#"
-            class="hover:text-emerald-400 transition">Contacto</a>
+          <li><router-link to="/"
+              class="text-gray-700 hover:text-green-700 transition">Home</router-link></li>
+          <li><router-link to="/agrimensura"
+              class="text-gray-700 hover:text-green-700 transition">Proyectos</router-link></li>
+          <li><router-link to="/contacto"
+              class="text-gray-700 hover:text-green-700 transition">Contacto</router-link></li>
         </div>
       </div>
     </nav>
