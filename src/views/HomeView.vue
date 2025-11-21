@@ -3,7 +3,7 @@
   // import { TresCanvas } from '@tresjs/core';
   // import SceneWrapper from '@/components/SceneWrapper.vue';
   // import FirstExperience from '@/components/FirstExperience.vue';
-  import MapsInteractive from '@/components/MapsInteractive.vue';
+  // import MapsInteractive from '@/components/MapsInteractive.vue';
   import NewMaps from '@/components/NewMaps.vue';
 
   // import { useProgress } from '@tresjs/cientos';

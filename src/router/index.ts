@@ -7,6 +7,11 @@ const router = createRouter({
       name: 'Home',
       path: '/',
       component: () => import('@/views/HomeView.vue')
+    },
+    {
+      name: 'Agrimensura',
+      path: '/agrimensura',
+      component: () => import('@/views/AgrimensuraView.vue')
     }
   ],
 })
