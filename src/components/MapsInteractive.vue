@@ -244,9 +244,7 @@
   ])
 
   // Parcela seleccionada
-  const selectedParcel = ref<Parcela>(
-    
-  )
+  const selectedParcel = ref<Parcela>()
 
   // Funciones
   const selectParcel = (parcel: Parcela) => {
