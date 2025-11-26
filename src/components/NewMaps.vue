@@ -176,7 +176,7 @@
             <div class="grid grid-cols-2 gap-3">
               <img v-for="i in 4"
                 :key="i"
-                :src="`/placeholder.svg?height=120&width=120&query=proyecto+residencial+${i}`"
+                :src="`/terreno${i}.webp`"
                 :alt="`Proyecto ${i}`"
                 class="w-full h-28 object-cover rounded border border-slate-700 hover:border-emerald-500 transition cursor-pointer" />
             </div>

@@ -207,12 +207,12 @@
 
   // Galería de imágenes
   const projectGallery = ref([
-    '/placeholder.svg?height=200&width=200',
-    '/placeholder.svg?height=200&width=200',
-    '/placeholder.svg?height=200&width=200',
-    '/placeholder.svg?height=200&width=200',
-    '/placeholder.svg?height=200&width=200',
-    '/placeholder.svg?height=200&width=200'
+    '/terreno1.webp',
+    '/terreno2.webp',
+    '/terreno3.webp',
+    '/terreno4.webp',
+    '/terreno1.webp',
+    '/terreno4.webp'
   ])
 
   // Datos de parcelas (mapa SVG)
